@@ -1,10 +1,12 @@
-﻿namespace homework_lect3
+﻿using homework_lect3.Models;
+
+namespace homework_lect3
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(CustomFuncs.CalculateFact(5));
         }
     }
 }
