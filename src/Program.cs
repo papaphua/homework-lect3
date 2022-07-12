@@ -6,7 +6,10 @@ namespace homework_lect3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(CustomFuncs.CalculateFact(5));
+            var list = CustomFuncs.CalculateFibonacci(2);
+            foreach (var i in list) {
+                Console.WriteLine(i);
+            }
         }
     }
 }
